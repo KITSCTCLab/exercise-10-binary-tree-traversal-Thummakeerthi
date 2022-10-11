@@ -1,7 +1,7 @@
 class BinaryTreeNode:
     def __init__(self, data):
         self.data = data
-        self.left_child = 
+        self.left_child = None
         self.right_child = None
 
 
@@ -42,7 +42,7 @@ def preorder(root) -> None:
     preorder(root.right_child)
 
 
-def postorder(root) -> None:
+def postorder(root) -> None
     if root is None:
        return
     postorder(root.left_child)
