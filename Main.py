@@ -63,5 +63,5 @@ for item in input_data.split(', '):
 inorder(root)
 print()
 preorder(root)
-print
-postorder(root)
+print()
+postorder(root
