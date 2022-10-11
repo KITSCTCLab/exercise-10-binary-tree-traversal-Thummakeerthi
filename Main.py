@@ -42,7 +42,7 @@ def preorder(root) -> None:
     preorder(root.right_child)
 
 
-def postorder(root) -> None
+def postorder(root) -> None:
     if root is None:
        return
     postorder(root.left_child)
@@ -63,5 +63,5 @@ for item in input_data.split(', '):
 inorder(root)
 print()
 preorder(root)
-print()
+print
 postorder(root)
