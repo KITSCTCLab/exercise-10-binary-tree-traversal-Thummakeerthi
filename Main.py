@@ -64,4 +64,4 @@ inorder(root)
 print()
 preorder(root)
 print()
-postorder(root
+postorder(root)
